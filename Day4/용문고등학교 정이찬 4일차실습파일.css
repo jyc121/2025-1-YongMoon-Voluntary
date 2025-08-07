@@ -1,0 +1,102 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 30px;
+    }
+    .profile-img {
+      display: block;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 0 auto 20px auto;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    .info {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .posts {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .posts a {
+      display: block;
+      margin: 10px 0;
+      font-size: 18px;
+      text-decoration: none;
+      color: #333;
+    }
+    .posts a:hover {
+      color: #007acc;
+      text-decoration: underline;
+    }
+
+body {
+      font-family: Arial, sans-serif;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 30px;
+      background-color: #fdfdfd;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .date {
+      text-align: center;
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 20px;
+    }
+    img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    p {
+      line-height: 1.7;
+      font-size: 16px;
+    }
+    a {
+      text-decoration: none;
+      color: #007acc;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .comment-box {
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #007acc;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #005f99;
+    }
